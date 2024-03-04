@@ -10,6 +10,10 @@ h2 {
   color:#0092d4;
 }
 
+a {
+  color:#0092d4;
+}
+
 #header {
   display: flex;
   flex-direction: column;
@@ -116,4 +120,20 @@ h2 {
 
 #footer a:hover {
   font-size: 30px;
+}
+
+@media (max-width: 720px) {
+  #bluski-logo {
+    width: 400px;
+    height: 200px;
+    margin-bottom: 0;
+  }
+  #services {
+    width: 300px;
+    height: 150px;
+  }
+  .rating {
+    margin: 10px;
+    font-size: 20px;
+  }
 }
